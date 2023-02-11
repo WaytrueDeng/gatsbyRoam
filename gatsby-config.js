@@ -5,10 +5,11 @@ module.exports = {
       options: {
         contentPath: `${__dirname}/content/garden`,
         rootNote: `/hello`,
+        parseWikiLinks: true,
       },
     },
   ],
   siteMetadata: {
-    title: `Site title`,
+    title: `Waytrue' Roam`,
   },
 }
