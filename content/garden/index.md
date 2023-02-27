@@ -12,3 +12,7 @@ date: 2023-02-11
 - # Math
   - [[mathLearn]]
   - [[precalculusLearn]]
+
+- # Medic
+  - ## Internal Medicine
+    - [[糖尿病]]

@@ -21,7 +21,11 @@ const NoteWrapper = ({ children, slug, title }) => {
       className={noteContainerClassName(state)}
       style={{ left: 40 * (i || 0), right: -585 }}
     >
-      <div className="note-content">{children}</div>
+    <div className="note-content">
+    {title}
+
+    {children}
+    </div>
       <LinkToStacked to={slug} className="obstructed-label">
         {title}
       </LinkToStacked>

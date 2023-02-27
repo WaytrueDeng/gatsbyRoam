@@ -114,3 +114,9 @@
   padding-right:10pxl
 }
 
+
+.note-container blockquote {
+  background-color: #6272a4;
+  border-left: 2px cyan solid;
+  padding-left: 5px;
+}
